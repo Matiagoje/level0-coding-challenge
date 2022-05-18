@@ -1,13 +1,13 @@
 def find_maximum_num(num1, num2, num3):
         if num1 >= num2  and num1 >= num3:
-            print(num1)  
+            return num1  
         elif num2 > num1  and num2 > num3:
-            print(num2)
+            return num2
         else: 
-            print(num3)
+            return num3
 
 
-find_maximum_num(1, 4, 3)
+print(find_maximum_num(1, 4, 3))
 
 
        
