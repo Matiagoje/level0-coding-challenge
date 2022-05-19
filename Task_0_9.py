@@ -13,5 +13,5 @@ def find_vowels(word):
             else:
                 continue
 
-print("vowels: ")
+print("vowels: ", end="")
 find_vowels("Umuzi")

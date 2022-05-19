@@ -11,5 +11,5 @@ def common_letters(first_string, second_string):
             else:
                 continue
         
-print("common letters: ")
+print("common letters: ", end="")
 common_letters("house","computers")
