@@ -9,7 +9,7 @@ def find_vowels(word):
             output = output + letter
             if letter in vowels:
                 print(remover % letter, end="")
-                remover = ",%s"
+                remover = ", %s"
             else:
                 continue
 

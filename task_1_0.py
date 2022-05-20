@@ -7,7 +7,7 @@ def common_letters(first_string, second_string):
         for characters in second_string:
             if letters == characters:
                 print(remover % characters, end = "")
-                remover = ",%s"
+                remover = ", %s"
             else:
                 continue
         
