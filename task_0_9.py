@@ -1,4 +1,5 @@
 def find_vowels(word):
+    print("vowels: ", end="")
     word = word.lower()
     vowels = ("a", "e", "i", "o", "u")
     output = ""
@@ -13,5 +14,4 @@ def find_vowels(word):
             else:
                 continue
 
-print("vowels: ", end="")
 find_vowels("Umuzi")

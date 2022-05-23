@@ -1,4 +1,5 @@
 def common_letters(first_string, second_string):
+    print("common letters: ", end="")
     first_string = first_string.lower()
     second_string = second_string.lower()
     remover = "%s"
@@ -14,5 +15,5 @@ def common_letters(first_string, second_string):
                 else:
                     continue
         
-print("common letters: ", end="")
+
 common_letters("houses","computers")
